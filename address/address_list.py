@@ -1,7 +1,9 @@
 from __future__ import division
+from __future__ import absolute_import
+from __future__ import print_function
 import sys
 import os
-from address import Address, AddressParser
+from .address import Address, AddressParser
 
 
 if __name__ == '__main__':
