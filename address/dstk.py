@@ -264,7 +264,7 @@ def ip2coordinates_cli(dstk, options, inputs, output):
         if ip_match is not None:
             input_ips.append(ip_match.group(0))
         else:
-            print 'No match'
+            print ('No match')
 
     result = dstk.ip2coordinates(input_ips)
 
@@ -465,7 +465,7 @@ def html2story_cli(dstk, options, inputs, output):
 
     if options['from_stdin']:
         result = dstk.html2story("\n".join(inputs))
-        print result['story']
+        print (result['story'])
         return
 
     for file_name in inputs:
