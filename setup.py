@@ -15,7 +15,7 @@ setup(
     classifiers=[
         "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
-        "Programming Language :: Python :: 2 :: Only",
+        "Programming Language :: Python :: 2 and 3 :: Only",
         "Topic :: Software Development :: Libraries",
         "Topic :: Text Processing",
     ],
